@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.odogwudev.roommigrationschema.`interface`.UserDao
+import com.odogwudev.roommigrationschema.interfaces.UserDao
 import com.odogwudev.roommigrationschema.datamodel.UserEntity
 import com.odogwudev.roommigrationschema.datamodel.UserReportCardEntity
 import kotlinx.coroutines.CoroutineScope

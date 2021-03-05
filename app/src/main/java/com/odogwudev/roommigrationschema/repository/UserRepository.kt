@@ -1,7 +1,7 @@
 package com.odogwudev.roommigrationschema.repository
 
 import androidx.annotation.WorkerThread
-import com.odogwudev.roommigrationschema.`interface`.UserDao
+import com.odogwudev.roommigrationschema.interfaces.UserDao
 import com.odogwudev.roommigrationschema.datamodel.UserEntity
 import com.odogwudev.roommigrationschema.datamodel.UserReportCardEntity
 import kotlinx.coroutines.flow.Flow

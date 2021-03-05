@@ -1,4 +1,4 @@
-package com.odogwudev.viewmodel
+package com.odogwudev.roommigrationschema.viewmodel
 
 import androidx.lifecycle.*
 import com.odogwudev.roommigrationschema.datamodel.UserReportCardEntity

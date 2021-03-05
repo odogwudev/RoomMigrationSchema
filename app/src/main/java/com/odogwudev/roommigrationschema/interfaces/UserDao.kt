@@ -1,4 +1,4 @@
-package com.odogwudev.roommigrationschema.`interface`
+package com.odogwudev.roommigrationschema.interfaces
 
 import androidx.room.*
 import com.odogwudev.roommigrationschema.datamodel.UserEntity

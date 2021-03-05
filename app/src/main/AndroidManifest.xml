@@ -3,6 +3,7 @@
     package="com.odogwudev.roommigrationschema">
 
     <application
+        android:name=".MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".activity.UserActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserEditActivity"
+            android:parentActivityName=".activity.UserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.UserReportCardActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserReportCardEditActivity"
+            android:parentActivityName=".activity.UserReportCardActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
